@@ -481,7 +481,7 @@ end
 ## Решение
 
 ```ruby
-Array.new(4) { Array.new(5) { rand(1..5) } }
+Array.new(4) { Array.new(5, rand(1..5)) }
 ```
 
 ## Задание
